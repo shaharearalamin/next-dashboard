@@ -1,0 +1,423 @@
+html 
+
+  <!-- START AUTHOR SECTION  -->
+				   <section id="author">
+					<div class="authorWrapper">
+						<div class="authorHeadingText  d-flex justify-content-between">
+							<h3>Authors Table</h3>
+							<div class="Social">
+								<a href="#" class="text-light fs-5 tableExtraIcon  mx-1 rounded p-2"><i class="ph ph-file-pdf "></i></a>
+								<a href="#" class="text-light fs-5 tableExtraIcon  mx-1 rounded p-2"><i class="ph ph-printer"></i></a>
+								<a href="#" class="text-light fs-5 tableExtraIcon  mx-1 rounded p-2"><i class="ph ph-file-xls"></i></a>
+							</div>
+						</div>
+						<div id="authorTable">
+							<table class="authorTablecustomize">
+								<thead>
+									<tr> 
+										<th>AUTHOR</th>
+										<th>FUNCTION</th>
+										<th>STATUS</th>
+										<th>EMPLOYED</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="authorTableImg"> 
+												<img src="./assets/image/author section img/author-img-1.png" alt="">
+												<div class="tableText">
+													<h4>Esthera Jackson</h4>
+													<a href="mailto:shahreeyar@gmail.com">esthera@simmmple.com</a>
+												</div>
+											</div>
+										</td>
+										
+										<td>
+											<div class="tableText2">
+												<h4>Manager</h4>
+												<p>Organization</p>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextBtn">
+												<button>Online</button>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextDate">
+												<span>14/06/21</span>
+											</div>
+										</td>
+										<td>
+											<div class="editText">
+												<a class="editbtn" href="#" >Edit</a>
+												<div class="extraDiv">
+													<a href="#" class="text-light">
+														Customize
+													</a>
+												</div>
+											</div>
+
+										</td>
+									</tr>
+									<!-- 1 -->
+									<tr>
+										<td>
+											<div class="authorTableImg"> 
+												<img src="./assets/image/author section img/author-img-2.png" alt="">
+												<div class="tableText">
+													<h4>Alexa Liras</h4>
+													<a href="mailto:shahreeyar@gmail.com">alexa@simmmple.com</a>
+												</div>
+											</div>
+										</td>
+										
+										<td>
+											<div class="tableText2">
+												<h4>Programmer</h4>
+												<p>Developer</p>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextBtn">
+												<button class="bg-danger">Offline</button>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextDate">
+												<span>14/06/21</span>
+											</div>
+										</td>
+										<td>
+											<div class="editText">
+												<a class="editbtn1" href="#" >Edit</a>
+												<div class="extraDiv1 ">
+													<a href="#" class="text-light">
+														Customize
+													</a>
+												</div>
+											</div>
+
+										</td>
+									</tr>
+									<!-- 2 -->
+									<tr>
+										<td>
+											<div class="authorTableImg"> 
+												<img src="./assets/image/author section img/author-img-3.png" alt="">
+												<div class="tableText">
+													<h4>Laurent Michael</h4>
+													<a href="mailto:shahreeyar@gmail.com">laurent@simmmple.com</a>
+												</div>
+											</div>
+										</td>
+										
+										<td>
+											<div class="tableText2">
+												<h4>Executive</h4>
+												<p>Projects</p>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextBtn">
+												<button>Online</button>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextDate">
+												<span>14/06/21</span>
+											</div>
+										</td>
+										<td>
+											<div class="editText">
+												<a href="#">Edit</a>
+											</div>
+
+										</td>
+									</tr>
+									<!-- 3 -->
+									<tr>
+										<td>
+											<div class="authorTableImg"> 
+												<img src="./assets/image/author section img/author-img-4.png" alt="">
+												<div class="tableText">
+													<h4>Freduardo Hill</h4>
+													<a href="mailto:shahreeyar@gmail.com">freduardo@simmmple.com</a>
+												</div>
+											</div>
+										</td>
+										
+										<td>
+											<div class="tableText2">
+												<h4>Manager</h4>
+												<p>Organization</p>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextBtn">
+												<button>Online</button>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextDate">
+												<span>14/06/21</span>
+											</div>
+										</td>
+										<td>
+											<div class="editText">
+												<a href="#">Edit</a>
+											</div>
+
+										</td>
+									</tr>
+									<!-- 4 -->
+									<tr>
+										<td>
+											<div class="authorTableImg"> 
+												<img src="./assets/image/author section img/author-img-5.png" alt="">
+												<div class="tableText">
+													<h4>Daniel Thomas </h4>
+													<a href="mailto:shahreeyar@gmail.com">daniel@simmmple.com</a>
+												</div>
+											</div>
+										</td>
+										
+										<td>
+											<div class="tableText2">
+												<h4>Programmer</h4>
+												<p>Developer</p>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextBtn">
+												<button class="bg-danger">Offline</button>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextDate">
+												<span>14/06/21</span>
+											</div>
+										</td>
+										<td>
+											<div class="editText">
+												<a href="#">Edit</a>
+											</div>
+
+										</td>
+									</tr>
+									<!-- 5 -->
+									<tr>
+										<td>
+											<div class="authorTableImg"> 
+												<img src="./assets/image/author section img/author-img-6.png" alt="">
+												<div class="tableText">
+													<h4>Mark Wilson</h4>
+													<a href="mailto:shahreeyar@gmail.com">mark@simmmple.com</a>
+												</div>
+											</div>
+										</td>
+										
+										<td>
+											<div class="tableText2">
+												<h4>Designer</h4>
+												<p>UI/UX Design</p>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextBtn">
+												<button>Online</button>
+											</div>
+										</td>
+										<td>
+											<div class="authorTextDate">
+												<span>14/06/21</span>
+											</div>
+										</td>
+										<td>
+											<div class="editText">
+												<a href="#">Edit</a>
+											</div>
+
+										</td>
+									</tr>
+									<!-- 6 -->
+								</tbody>
+							</table>
+						</div>
+					</div>
+				   </section>
+				  <!-- END AUTHOR SECTION  -->
+
+html 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* START AUTHOR SECTION  */
+#author{
+  width: 100%;
+  /* border: 1px solid red; */
+  margin: 10px auto;
+  min-height: 400px;
+  padding: 20px;
+
+  border-radius: 10px;
+background: #1D2126;
+box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+}
+#author {
+  width: 100%;
+  /* border: 1px solid red; */
+  margin: 18px auto !important;
+  min-height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #1D2126;
+  box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+}
+.authorHeadingText h3{
+  color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 25.2px */
+margin-bottom: 20px;
+}
+
+#authorTable table {
+  width: 100%;
+  height: 100%;
+}
+#authorTable table thead th {
+  color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 15px */
+padding-bottom: 20px;
+}
+#authorTable table thead th:first-child{
+    width: 700px;
+}
+#authorTable table thead th:last-child{
+    width: auto;
+}
+#authorTable table thead th{
+    width: 300px;
+    border: none !important;
+}
+#author tbody tr {
+  border-top: 1px solid #38414D;
+}
+
+.authorTableImg{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+}
+.authorTableImg img{
+  border-radius: 10px;
+  width: 50px ;
+  height: 50px ;
+}
+.tableText h4{
+  color: #919191;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+margin: 0!important;
+padding-top: 8px;
+}
+.tableText a{
+  color: #FFF;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+margin: 0 !important;
+text-decoration: none;
+}
+.tableText2 h4{
+  color: #919191;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+margin: 0!important;
+padding-top: 10px;
+}
+.tableText2 p{
+  color: #FFF;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+}
+.authorTextBtn button {
+  color: var(--black-amp-white-white, #FFF);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+
+  border-radius: 8px;
+background: var(--Green-Green-400, #48BB78);
+border: none;
+padding: 5px 15px ;
+}
+.authorTextDate span{
+  color: #FFF;
+text-align: center;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+}
+.editText a{
+  color: var(--Gray-Gray-500, #718096);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 18px */
+text-decoration: none;
+}
+  /* END AUTHOR SECTION  */
+ 
+
+  

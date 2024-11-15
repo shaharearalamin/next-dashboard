@@ -1,0 +1,369 @@
+/* font family  */
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/helvetica-light-587ebe5a59211.ttf);
+  }
+  
+  :root {
+    --primary-color: #4fd1c5;
+    --secondary-color: #718096;
+    --lable-color: #c4c4c4;
+    --placholder-color: #a0aec0;
+    --common-white: #ffffff;
+    --common-black: #000000;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+
+  /* START PROJECT SECTION  */
+#author{
+  width: 100%;
+  /* border: 1px solid red; */
+  margin: 10px auto;
+  min-height: 400px;
+  padding: 20px;
+
+  border-radius: 10px;
+background: #1D2126;
+box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+}
+.projectHeadingText{
+  padding-bottom: 10px ;
+}
+.projectHeadingText h3{
+  color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 25.2px */
+}
+
+.projectHeadingText span{
+  color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+}
+.projectHeadingText p{
+  color: var(--Gray-Gray-400, #A0AEC0);
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+#authorTable table {
+  width: 100%;
+  height: 100%;
+}
+#authorTable table thead th {
+  color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 15px */
+padding-bottom: 20px;
+}
+#authorTable table thead th:first-child{
+    width: 700px;
+}
+#authorTable table thead th:last-child{
+    width: auto;
+}
+#authorTable table thead th{
+    width: 300px;
+    border: none !important;
+}
+#author tbody tr {
+  border-top: 1px solid #38414D;
+}
+
+.authorTableImg{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+}
+.authorTableImg img{
+  border-radius: 10px;
+  width: 50px ;
+  height: 50px ;
+}
+.tableProjcetText h4{
+  color: #FFF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+}
+ 
+.tableProjcetText2 h4{
+  color: #FFF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+}
+.projectStatus span{
+  color: #FFF;
+text-align: center;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+}
+
+.projectCounter label{
+  color: white;
+  margin: 10px 0px ;
+}
+.projectCounter span{
+  color: white;
+}
+.projectCounter {
+  padding: 10px 0 20px 0 ;
+}
+.projectCounterbar{
+  width: 200px;
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 10px ;
+  
+}
+.projectCounterbar::after{
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 60%;
+ height: 100%;
+ background-color: var(--primary-color);
+ border-radius: 10px ;
+ animation: projectCounter 2s ease-in-out ;
+}
+.counterBar2::after{
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 10%;
+ height: 100%;
+ background-color: var(--primary-color);
+ border-radius: 10px ;
+ animation: projectCounter 2s ease-in-out ;
+}
+.counterBar3::after{
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: var(--primary-color);
+ border-radius: 10px ;
+ animation: projectCounter 2s ease-in-out ;
+}
+.counterBar4::after{
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 25%;
+ height: 100%;
+ background-color: var(--primary-color);
+ border-radius: 10px ;
+ animation: projectCounter 2s ease-in-out ;
+}
+@keyframes projectCounter {
+  0%{
+    width: 0%;
+  }
+  
+}
+.projectOptionBtn button{
+  margin-top: 10px;
+  background: transparent;
+  border: none !important;
+}
+
+@media screen and (max-width:992px) {
+  #author{
+    width: 100% !important;
+    /* overflow-x: scroll; */
+  }
+  .authorWrapper{
+    width:  auto !important;
+    overflow-x: scroll;
+  }
+  .authorTable{
+    width: 1200px !important;
+    overflow-x: scroll;
+  }
+  .authorTablecustomize{
+    width: 1200px !important;
+  }
+  .authorHeadingText{
+    width: 1200px !important;
+  }
+
+}
+  /* END PROJECT SECTION  */
+ 
+.tableExtraIcon:hover{
+  background: var(--primary-color) !important;
+  transition: all .4s ease-in-out !important;
+  color: black !important;
+}
+.extraDiv{
+  width: 100px !important;
+  height: auto !important;
+  /* border: 1px solid #da0000; */
+  position: absolute;
+  top: 0;
+  right: 20px;
+  padding: 5px;
+  display: none;
+}
+.extraDiv1{
+  width: 100px !important;
+  height: auto !important;
+  /* border: 1px solid #da0000; */
+  position: absolute;
+  top: 0;
+  right: 20px;
+  padding: 5px;
+  display: none;
+}
+.editText{
+  position: relative !important;
+}
+
+
+/* customize scrollbar  */
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+  height: 7px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(65, 65, 65); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color) ; 
+}
+
+/* end customize sroll section  */
+
+/* table pdf xl print section working on */
+.containerFortable{
+  
+  padding: 15px ;
+  border-radius: 15px;
+  background: #1D2126;
+  box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+}
+#filterParent input {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+#filterParent input:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#authorHeading h2 {
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 25.2px */
+}
+
+#tableParent thead th:nth-child(1){
+  width: 600px !important;
+}
+#tableParent th td{
+  padding: 10px !important;
+}
+#tableParent th {
+  color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+}
+#tdParent p{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#tdParent span{
+  color: var(--Gray-Gray-500, #718096);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+}
+
+#tdParent a{
+  color: #FFF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+text-decoration: none ;
+}
+
+.btnParent button i{
+  color: white !important;
+  font-size: 20px ;
+}
+.btnParent button:hover{
+ background-color: var(--primary-color);
+}
+
+@media screen and (max-width:992px) {
+#tableParent{
+  width: 1200px !important;
+  overflow: scroll;
+}
+#multipleBtn{
+  width: 1200px !important;
+}
+.containerFortable{
+  width: 100% !important;
+  overflow-x: scroll;
+}
+
+}
